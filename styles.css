@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+body {
+    background: linear-gradient(#4cbb9f, #4a6192);
+    background-attachment: fixed;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d3dbd6;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(141, 145, 141);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(119, 126, 119);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: rgba(26, 34, 30, 0.5);
+    border: 1px solid rgba(52, 109, 52, 0.5);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input {
+    width: 210px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 15px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(250, 239, 239);
+}
+
+button {
+    margin-left: 15px;
+    padding: 5px 15px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(27, 28, 29);
+    background-color: rgba(245, 238, 238, 0.6);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(65, 52, 52, 0.7);
+    color: rgb(239, 248, 242);
+    transition: 0.2s;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+img {
+    height: 25px;
+    cursor: pointer;
+}
+
+.finish-task {
+    margin: 0 5px;
+}
+
+.delete-task {
+    margin: 0 5px;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+}
+
+.task {
+    margin: 5px 0;
+    background-color: rgba(245, 238, 238, 0.5);
+    width: 400px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 17px;
+    word-wrap: break-word;
+}
+
+.finished {
+    background-color: rgba(92, 214, 92, 0.7);
+    text-decoration: line-through;
+}
+
+.active-clear-btn {
+    background-color: rgba(236, 64, 64, 0.7);
+    color: rgba(245, 245, 245);
+}
+
+.active-clear-btn:hover {
+    background-color: rgba(250, 30, 30, 0.7);
+    color: rgb(37, 24, 24);
+    transition: 0.2s;
+}
+
+span {
+    font-size: 15px;
+    color: rgba(245, 238, 238);
+}
+
+#pending-tasks {
+    color: #0ef0b7;
+    font-size: 16px;
+}
+
+.footer {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.todos {
+    margin: 15px 5px;
+    overflow: auto;
+}
